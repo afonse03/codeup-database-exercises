@@ -25,7 +25,7 @@ WHERE MONTH(birth_date) = '12'
   ORDER BY hire_date DESC;
 
 #6
-SELECT DATEDIFF(CURDATE(), hire_date) AS 'Days worked', first_name, last_name, hire_date FROM employees
+SELECT DATEDIFF(CURDATE(), hire_date) AS 'Days worked', first_name AS 'First Name', last_name AS 'Last Name', hire_date AS 'Hire Date' FROM employees
 WHERE MONTH(birth_date) = '12'
   AND DAY(birth_date) = '25'
   AND YEAR(hire_date) BETWEEN 1990 AND 1999;
