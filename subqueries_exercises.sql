@@ -1,6 +1,6 @@
 USE employees;
 
-#1: find all the employees with the same hire date as employee 101010 using a subquery
+#1: find all the employees with the same hire date as employee 101010 using a subquery.
 
 SELECT emp_no, hire_date
 FROM employees
