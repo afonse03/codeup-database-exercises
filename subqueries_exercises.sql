@@ -10,7 +10,7 @@ WHERE hire_date IN (
     WHERE emp_no = '101010'
     );
 
-#2: find all the titles held by all employees with the first name Aamod..
+#2: find all the titles held by all employees with the first name Aamod....
 
 SELECT title
 FROM titles
